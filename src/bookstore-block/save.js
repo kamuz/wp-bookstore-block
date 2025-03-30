@@ -17,7 +17,7 @@ import { useBlockProps } from '@wordpress/block-editor';
  */
 export default function save() {
 	return (
-		<p { ...useBlockProps.save() }>
+		<p { ...useBlockProps.save() } className='bookstore-block'>
 			{ 'Bookstore Block – hello from the saved content!' }
 		</p>
 	);
